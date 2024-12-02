@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="MySql.Data">
+        <HintPath>..\..\..\..\..\.nuget\packages\mysql.data\9.1.0\lib\net8.0\MySql.Data.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

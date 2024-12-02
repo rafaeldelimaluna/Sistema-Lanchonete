@@ -1,7 +1,14 @@
 namespace Models;
 
-public class TipoProduto
+public enum TipoProduto
 {
-    public int Id { get; set; }
-    public string Nome { get; set; } = null!;
+    Indefinido,
+    Lanche,
+    LancheGourmet,
+    Porcao,
+    Suco,
+    Refrigerante,
+    Agua,
+    Sorvete,
+    Sobremesa
 }
