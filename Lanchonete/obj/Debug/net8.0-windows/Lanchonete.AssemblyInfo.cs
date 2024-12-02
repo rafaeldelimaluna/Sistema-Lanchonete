@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Models")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Lanchonete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d2f93ee05836561dc3393e0a1af71510f03c283")]
-[assembly: System.Reflection.AssemblyProductAttribute("Models")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Models")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lanchonete")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Lanchonete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

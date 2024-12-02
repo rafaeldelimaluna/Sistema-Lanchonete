@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Models\\Models.csproj": {}
+    "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Lanchonete\\Forms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Models\\Models.csproj": {
+    "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Lanchonete\\Forms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Lanchonete\\Forms.csproj",
+        "projectName": "Forms",
+        "projectPath": "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Lanchonete\\Forms.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\source\\repos\\rafaeldelimaluna\\Sistema-Lanchonete\\Lanchonete\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -63,6 +63,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
